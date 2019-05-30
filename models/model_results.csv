@@ -1,0 +1,12 @@
+model_name,best_acc,best_params
+logit_no_vectorization,0.5743935983995999,{'penalty': 'l2'}
+logit_no_vectorization,0.5743935983995999,{'penalty': 'l2'}
+logit_unigrams,0.9099774943735934,{'penalty': 'l2'}
+nb_unigrams,0.892223055763941,{'alpha': 0.5}
+passive_aggressive_unigrams,0.8954738684671167,{'C': 2}
+logit_unigrams_tfidf,0.9104776194048512,{'penalty': 'l2'}
+nb_unigrams_tfidf,0.8819704926231557,{'alpha': 0}
+passive_aggressive_unigrams_tfidf,0.9269817454363593,{'C': 2}
+logit_unigrams_tfidf_all_features,0.9094773693423356,{'penalty': 'l2'}
+nb_unigrams_tfidf_all_features,0.883970992748187,{'alpha': 0}
+passive_aggressive_unigrams_tfidf_all_features,0.92448112028007,{'C': 0.5}
