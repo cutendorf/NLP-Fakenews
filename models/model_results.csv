@@ -16,4 +16,8 @@ pa_unigrams_title,0.5111277819454864,{}
 svc_unigrams,0.884221055263816,{'kernel': 'linear'}
 logit_bigrams,0.9102275568892224,{'logisticregression__penalty': 'l2'}
 nb_bigrams,0.8924731182795699,{'multinomialnb__alpha': 0.5}
-pa_bigrams,0.9027256814203551,{'passiveaggressiveclassifier__C': 2}
+pa_bigrams,0.9027256814203553,{'passiveaggressiveclassifier__C': 2}
+svc_bigrams,0.8939734933733433,{}
+svc_unigrams_tfidf,0.9287321830457614,{}
+pa_bigrams_tfidf,0.929982495623906,{}
+svc_bigrams_tfidf,0.9294823705926482,{}
