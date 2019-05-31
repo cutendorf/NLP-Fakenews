@@ -10,3 +10,10 @@ passive_aggressive_unigrams_tfidf,0.9269817454363593,{'C': 2}
 logit_unigrams_tfidf_all_features,0.9094773693423356,{'penalty': 'l2'}
 nb_unigrams_tfidf_all_features,0.883970992748187,{'alpha': 0}
 passive_aggressive_unigrams_tfidf_all_features,0.92448112028007,{'C': 0.5}
+logit_unigrams_title,0.8044511127781946,{'penalty': 'l2'}
+nb_unigrams_title,0.7759439859964992,{}
+pa_unigrams_title,0.5111277819454864,{}
+svc_unigrams,0.884221055263816,{'kernel': 'linear'}
+logit_bigrams,0.9102275568892224,{'logisticregression__penalty': 'l2'}
+nb_bigrams,0.8924731182795699,{'multinomialnb__alpha': 0.5}
+pa_bigrams,0.9027256814203551,{'passiveaggressiveclassifier__C': 2}
