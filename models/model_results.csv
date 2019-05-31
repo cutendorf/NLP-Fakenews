@@ -21,4 +21,10 @@ svc_bigrams,0.8939734933733433,{}
 svc_unigrams_tfidf,0.9287321830457614,{}
 pa_bigrams_tfidf,0.929982495623906,{}
 svc_bigrams_tfidf,0.9294823705926482,{}
-pa_unigrams_bigrams_tfidf,0.9377344336084021,{}
+pa_unigrams_bigrams_tfidf,0.937734433608402,{}
+logit_unigrams_bigrams_tfidf,0.8989747436859215,{}
+svc_unigrams_bigrams_tfidf,0.9364841210302576,{}
+pa_trigrams_tfidf,0.9012253063265816,{}
+pa_bigrams_trigrams_tfidf,0.9022255563890972,{}
+pa_bigrams_trigrams_tfidf,0.9219804951237808,{}
+pa_unigrams_bigrams_trigrams_tfidf,0.9312328082020506,{}
