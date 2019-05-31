@@ -1,30 +1,27 @@
 model_name,best_acc,best_params
 logit_no_vectorization,0.5743935983995999,{'penalty': 'l2'}
-logit_no_vectorization,0.5743935983995999,{'penalty': 'l2'}
-logit_unigrams,0.9099774943735934,{'penalty': 'l2'}
-nb_unigrams,0.892223055763941,{'alpha': 0.5}
-passive_aggressive_unigrams,0.8954738684671167,{'C': 2}
-logit_unigrams_tfidf,0.9104776194048512,{'penalty': 'l2'}
-nb_unigrams_tfidf,0.8819704926231557,{'alpha': 0}
-passive_aggressive_unigrams_tfidf,0.9269817454363593,{'C': 2}
+logit_unigrams_title,0.7991997999499875,{'logisticregression__penalty': 'l2'}
+nb_unigrams_title,0.8067016754188547,{'multinomialnb__alpha': 1}
+svc_unigrams_title,0.7716929232308077,{}
+pa_unigrams_title,0.7754438609652413,{}
+logit_unigrams,0.90847711927982,{'logisticregression__penalty': 'l2'}
+nb_unigrams,0.8877219304826206,{'multinomialnb__alpha': 0.5}
+svc_unigrams,0.8924731182795699,{}
+pa_unigrams,0.8809702425606402,{'passiveaggressiveclassifier__C': 1}
+logit_unigrams_tfidf,0.9099774943735934,{}
+nb_unigrams_tfidf,0.8559639909977494,{'multinomialnb__alpha': 0.5}
+svc_unigrams_tfidf,0.9287321830457614,{}
+pa_unigrams_tfidf,0.8927231807951987,{'passiveaggressiveclassifier__C': 1}
 logit_unigrams_tfidf_all_features,0.9094773693423356,{'penalty': 'l2'}
-nb_unigrams_tfidf_all_features,0.883970992748187,{'alpha': 0}
-passive_aggressive_unigrams_tfidf_all_features,0.92448112028007,{'C': 0.5}
-logit_unigrams_title,0.8044511127781946,{'penalty': 'l2'}
-nb_unigrams_title,0.7759439859964992,{}
-pa_unigrams_title,0.5111277819454864,{}
-svc_unigrams,0.884221055263816,{'kernel': 'linear'}
 logit_bigrams,0.9102275568892224,{'logisticregression__penalty': 'l2'}
 nb_bigrams,0.8924731182795699,{'multinomialnb__alpha': 0.5}
-pa_bigrams,0.9027256814203553,{'passiveaggressiveclassifier__C': 2}
 svc_bigrams,0.8939734933733433,{}
-svc_unigrams_tfidf,0.9287321830457614,{}
-pa_bigrams_tfidf,0.929982495623906,{}
+pa_bigrams,0.9034758689672421,{'passiveaggressiveclassifier__C': 2}
 svc_bigrams_tfidf,0.9294823705926482,{}
-pa_unigrams_bigrams_tfidf,0.937734433608402,{}
+pa_bigrams_tfidf,0.929732433108277,{}
 logit_unigrams_bigrams_tfidf,0.8989747436859215,{}
 svc_unigrams_bigrams_tfidf,0.9364841210302576,{}
-pa_trigrams_tfidf,0.9012253063265816,{}
-pa_bigrams_trigrams_tfidf,0.9022255563890972,{}
-pa_bigrams_trigrams_tfidf,0.9219804951237808,{}
-pa_unigrams_bigrams_trigrams_tfidf,0.9312328082020506,{}
+pa_unigrams_bigrams_tfidf,0.9389847461865466,{}
+pa_trigrams_tfidf,0.9019754938734684,{}
+pa_bigrams_trigrams_tfidf,0.9234808702175544,{}
+pa_unigrams_bigrams_trigrams_tfidf,0.9314828707176794,{}
